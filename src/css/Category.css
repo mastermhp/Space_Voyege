@@ -1,0 +1,15 @@
+.categoryCard {
+  background: #f12711;
+  height: 170px;
+  /* width: 190px; */
+}
+.categoryCard img{
+  border-radius: 50%;
+}
+.categoryName{
+  color: white;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
