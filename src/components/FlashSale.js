@@ -7,9 +7,33 @@ import { BsArrowRight } from "react-icons/bs";
 import { BsArrowRightShort } from "react-icons/bs";
 import { GiSpaceship } from "react-icons/gi";
 import "../scss/flashsale.scss";
-import jupiter from "../image/saturn4.png";
+import img1 from "../image/jupiter2.png";
+import img2 from "../image/saturn4.png";
+import img3 from "../image/moon2.png";
 
-
+const Data = [
+  {
+    id: 1,
+    imgSrc: img1,
+    destTitle: "Way to Jupiter",
+    location: "Jupiter",
+    grade: "discover Jupiter",
+  },
+  {
+    id: 2,
+    imgSrc: img2,
+    destTitle: "Way to Saturn",
+    location: "Saturn",
+    grade: "discover Saturn",
+  },
+  {
+    id: 3,
+    imgSrc: img3,
+    destTitle: "Way to Moon",
+    location: "Moon",
+    grade: "discover Moon",
+  },
+];
 
 // const FlashSale = ({ product }) => {
 const FlashSale = () => {
@@ -30,33 +54,37 @@ const FlashSale = () => {
           </div>
         </div>
 
-        <div className="mainContent flex">
-          <div className="singleDestination">
-            <div className="destImage">
-              <img src={jupiter} alt="" />
+        <div className="mainContent grid">
+          {Data.map(({ id, imgSrc, destTitle, location, grade }) => {
+            return (
+              <div className="singleDestination">
+                <div className="destImage">
+                  <img src={imgSrc} alt="" />
 
-              <div className="overlayInfo">
-                <h3>some text</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
+                  <div className="overlayInfo">
+                    <h3>{destTitle}</h3>
+                    <p>{location}</p>
 
-                <BsArrowRightShort className="icon" />
+                    <BsArrowRightShort className="icon" />
+                  </div>
+                </div>
+
+                <div className="destFooter">
+                  <div className="number">0{id}</div>
+
+                  <div className="destText flex">
+                    <h6>{location}</h6>
+                    <span className="flex">
+                      <span className="voyege">
+                        <GiSpaceship className="icon" />
+                      </span>
+                      Space Voyege
+                    </span>
+                  </div>
+                </div>
               </div>
-            </div>
-
-            <div className="destFooter">
-              <div className="number">01</div>
-
-              <div className="destText flex">
-                <h6>Mars</h6>
-                <span className="flex">
-                  <span className="voyege">
-                    <GiSpaceship className="icon" />
-                  </span>
-                  Space Voyege
-                </span>
-              </div>
-            </div>
-          </div>
+            );
+          })}
         </div>
       </div>
     </section>

@@ -62,7 +62,6 @@ const HomeScreen = ({ match }) => {
             </div>
 
             <button className="btn">Search</button>
-
           </div>
         </div>
       </section>
@@ -109,8 +108,8 @@ const HomeScreen = ({ match }) => {
           </Row>
         </>
       )} */}
-      {/* 
-      <h1>Latest Products</h1>
+
+      {/* <h1>Latest Products</h1> */}
       {loading ? (
         <Loader />
       ) : error ? (
@@ -118,11 +117,12 @@ const HomeScreen = ({ match }) => {
       ) : (
         <>
           <Row>
-            {products.map((product) => (
+            <Product />
+            {/* {products.map((product) => (
               <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
                 <Product product={product} />
               </Col>
-            ))}
+            ))} */}
           </Row>
           <Paginate
             pages={pages}
@@ -130,7 +130,7 @@ const HomeScreen = ({ match }) => {
             keyword={keyword ? keyword : ""}
           />
         </>
-      )} */}
+      )}
     </>
   );
 };

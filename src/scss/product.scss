@@ -1,0 +1,119 @@
+:root {
+    --PrimaryColor: linear-gradient(to right, #27242a 0%, #702e9f 100%);
+    --primarySingleColor: #702e9f;
+    --HoverColor: #971eed;
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(0, 0%, 18%);
+    --textColor: hsl(240, 31%, 95%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyBg: hsl(0, 0%, 96%);
+    --greyText: hsl(190, 190, 190);
+    --inputColor: hsl(330, 12%, 97%);
+}
+
+.offer {
+    .secContainer {
+        .mainContent {
+            gap: 1rem;
+
+            .singleOffer {
+                border-radius: 1rem;
+                overflow: hidden;
+                padding: 0.5rem;
+                box-shadow: 0 2px 8px 2px rgba(178, 178, 178, .189);
+
+                .icon {
+                    font-size: 20px;
+                    color: var(--blackColor);
+                }
+
+                small {
+                    font-weight: 500;
+                    color: var(--blackColor);
+                }
+
+                .destImage {
+                    position: relative;
+                    height: 320px;
+                    width: 100%;
+                    border-radius: 1rem;
+                    overflow: hidden;
+
+                    img {
+                        height: 100%;
+                    }
+
+                    .discount {
+                        position: absolute;
+                        top: 10px;
+                        right: 10px;
+                        padding: 5px 10px;
+                        background: var(--PrimaryColor);
+                        color: var(--whiteColor);
+                        border-radius: 3rem;
+                        font-size: 10px;
+                        font-weight: 500;
+                    }
+                }
+
+                .offerBody {
+                    padding: 1rem;
+
+                    .price {
+                        justify-content: space-between;
+
+
+                        h4 {
+                            color: var(--blackColor);
+                            font-weight: 700;
+                            font-size: 1.1rem;
+                        }
+
+                        .status {
+                            padding: 5px 10px;
+                            color: var(--primarySingleColor);
+                            background: var(--greyBg);
+                            font-size: 10px;
+                            font-weight: 600;
+                            border-radius: 3rem;
+                        }
+                    }
+
+                    .amenities {
+                        width: 100%;
+                        flex-wrap: wrap;
+                        justify-content: flex-start;
+                        padding: 1rem 0;
+                        gap: 0.5rem;
+
+                        .singleAmenity {
+                            padding: 5px 10px;
+                            border-radius: 5px;
+                            background: var(--greyBg);
+                            gap: 0.5rem;
+                        }
+                    }
+
+                    .btn {
+                        margin-top: 1rem;
+                        width: 100%;
+                        text-align: center;
+                        justify-content: center;
+                        padding: 0.6rem;
+                        color: var(--whiteColor);
+                        font-weight: 600;
+                        gap: 0.5rem;
+
+                        .icon{
+                            color: var(--whiteColor);
+                        }
+                    }
+                }
+
+                &:hover{
+                    transform: translateY(-7px);
+                }
+            }
+        }
+    }
+}
