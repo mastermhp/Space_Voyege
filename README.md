@@ -20,6 +20,8 @@ As per the challenge, we’re in a future where inter-planetary traveling has be
 
 The system structure of our Space Voyage initiative employs a MERN stack, leveraging MongoDB, Express.js, React, and Node.js. User engagement occurs through front-end components and services created using HTML5, CSS3, React, and JavaScript. On the server-side, Node.js and Express manage routing and controllers while interfacing with NASA's Space API for real-time data. The Mongoose model communicates seamlessly with MongoDB for efficient data storage. This tech stack guarantees a smooth and responsive user interface, adaptable to both the website and the mobile app. React ensures uniformity, and the collaboration of back-end processes and API integration produces a lively platform for users to navigate the cosmos effortlessly and accurately.
 
+![system_architecture](https://github.com/mastermhp/Space_Voyege/assets/110383734/018bf225-a576-4023-9df5-ce3c676f8dd1)
+
 ## FEATURES & SOLUTIONS
 
 As stated in the project description, we have tried to provide solutions to multiple problems in a single place. And this has been done through a web app.
@@ -61,3 +63,9 @@ The spark for our participation in the "NASA International Space Apps Challenge"
 [Astronomy topics on the CSA website](https://www.asc-csa.gc.ca/eng/astronomy/)
 
 [James Webb Space Telescope on the CSA website](https://asc-csa.gc.ca/eng/satellites/jwst/default.asp)
+
+![1  plan](https://github.com/mastermhp/Space_Voyege/assets/110383734/5ce8fa4b-2948-4fe2-9ae5-f860de7e96c1)
+![2  popular_destination_0](https://github.com/mastermhp/Space_Voyege/assets/110383734/3c5219ce-5aa4-44d2-a435-9ec41da88187)
+![3  popular_destination_1](https://github.com/mastermhp/Space_Voyege/assets/110383734/e4e8d11c-a495-4f04-b360-b126597695aa)
+![4  special_offers](https://github.com/mastermhp/Space_Voyege/assets/110383734/ee7b9db7-81d4-42ac-b004-a25394deb76a)
+![5  login](https://github.com/mastermhp/Space_Voyege/assets/110383734/f25cbaae-aefe-49bb-9417-055aa4a59c6f)
