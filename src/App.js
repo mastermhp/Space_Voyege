@@ -19,6 +19,7 @@ import ProductListScreen from './screens/ProductListScreen'
 import ProductEditScreen from './screens/ProductEditScreen'
 import OrderListScreen from './screens/OrderListScreen'
 import StreamHomeScreen from './screens/StreamHomeScreen'
+import "./app.css"
 
 const App = () => {
   return (

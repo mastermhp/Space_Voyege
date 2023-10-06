@@ -1,0 +1,187 @@
+:root {
+    --PrimaryColor: linear-gradient(to right, #27242a 0%, #702e9f 100%);
+    --primarySingleColor: #702e9f;
+    --HoverColor: #971eed;
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(0, 0%, 18%);
+    --textColor: hsl(240, 31%, 95%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyBg: hsl(0, 0%, 96%);
+    --greyText: hsl(190, 190, 190);
+    --inputColor: hsl(330, 12%, 97%);
+}
+
+.popular {
+    // -top: 200px;
+    margin-top: 15rem;
+
+    .secContainer {
+        .secHeader {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+
+            .textDiv {
+                .secTitle {
+                    color: var(--blackColor);
+                    line-height: 1.5rem;
+                    padding-bottom: 0.5rem;
+                }
+
+                p {
+                    font-size: 13px;
+                    color: var(--blackColor);
+                    font-weight: 500;
+                }
+            }
+
+            .iconsDiv {
+                gap: 0.5rem;
+
+                .icon {
+                    padding: 0.5rem;
+                    background: var(--greyBg);
+                    border-radius: 50%;
+                    font-size: 2.5rem;
+
+                    &:hover {
+                        background: var(--blackColor);
+                        color: var(--whiteColor);
+                    }
+                }
+
+                .leftIcon {
+                    background: var(--blackColor);
+                    color: var(--whiteColor);
+
+                    &:hover {
+                        background: var(--greyBg);
+                        color: var(--blackColor);
+                    }
+                }
+            }
+        }
+
+        .mainContent {
+            padding: 2rem 0;
+            gap: 1rem;
+
+            .singleDestination {
+                overflow: hidden;
+                border-radius: 1rem;
+                box-shadow: 0 2px 8px 2px rgba(178, 178, 178, 0.45);
+
+                .destImage {
+                    height: 200px;
+                    width: 100%;
+                    position: relative;
+                    overflow: hidden;
+
+                    img {
+                        // height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+
+                    .overlayInfo {
+                        position: absolute;
+                        display: flex;
+                        align-items: flex-start;
+                         padding: 0;
+                        // padding: 1rem 1.5rem;
+                        justify-content: center;
+                        flex-direction: column;
+                        background: linear-gradient(rgba(0, 0, 0, 0.846), rgba(0, 0, 0, 0.759));
+                        bottom: 0;
+                        width: 100%;
+                        // height: 100%;
+                        height: 0;
+                        overflow: hidden;
+
+                        h3 {
+                            color: var(--whiteColor);
+                            font-weight: 600;
+                        }
+
+                        p {
+                            color: var(--whiteColor);
+                            opacity: .7;
+                            font-size: 13px;
+                        }
+
+                        .icon {
+                            position: absolute;
+                            right: 10px;
+                            bottom: 10px;
+                            padding: 0.5rem;
+                            background: var(--PrimaryColor);
+                            font-size: 2.5rem;
+                            border-radius: 50%;
+                            color: var(--whiteColor);
+                            border: 1px solid transparent;
+                            transition: .3s ease;
+
+                            &:hover {
+                                background: var(--blackColor);
+                                border: 1px solid var(--PrimaryColor);
+                                // color: var(--primarySingleColor);
+                            }
+                        }
+                    }
+                }
+
+                .destFooter {
+                    padding: 1rem;
+
+                    .number {
+                        font-size: 2rem;
+                        font-weight: 700;
+                        color: var(--blackColor);
+                        position: relative;
+                        width: max-content;
+
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            background: var(--PrimaryColor);
+                            top: 45%;
+                            right: -150%;
+                            height: 5px;
+                            width: 45px;
+                            border-radius: 1rem;
+                        }
+                    }
+
+                    .destText{
+                        justify-content: space-between;
+
+                        h6{
+                            color: var(--blackColor);
+                            font-size: 15px;
+                        }
+
+                        .flex{
+                            font-size: 16px;
+                            font-weight: 600;
+                            align-items: flex-start;
+                            transform: translateY(5px);
+
+                            .icon{
+                                color: var(--primarySingleColor);
+                            }
+                        }
+                    }
+                }
+
+                &:hover{
+                    .overlayInfo{
+                        overflow: visible;
+                        padding: 1rem 1.5rem;
+                        height: 100%;
+
+                    }
+                }
+            }
+        }
+    }
+}

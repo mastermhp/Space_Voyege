@@ -1,0 +1,137 @@
+:root {
+    --PrimaryColor: linear-gradient(to right, #27242a 0%, #702e9f 100%);
+    --primarySingleColor: #702e9f;
+    --HoverColor: #971eed;
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(0, 0%, 18%);
+    --textColor: hsl(240, 31%, 95%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyBg: hsl(0, 0%, 96%);
+    --greyText: hsl(190, 190, 190);
+    --inputColor: hsl(330, 12%, 97%);
+}
+
+.navBarSection {
+    .header {
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: var(--whiteColor);
+        width: 100%;
+        padding: 1rem;
+        z-index: 1000;
+
+        .logoDiv {
+            .logo {
+                text-decoration: none;
+
+                .logoName {
+                    color: var(--primarySingleColor);
+                    font-weight: 600;
+                    cursor: pointer;
+                    align-items: center;
+                    justify-content: center;
+
+                    .icon {
+                        color: var(--PrimaryColor);
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .navbar {
+                background: var(--whiteColor);
+                position: absolute;
+                height: max-content;
+                padding: 1rem;
+                width: 100%;
+                top: 0;
+                left: -500%;
+                box-shadow: 0 2px 4px rgba(209, 209, 209, 0.904);
+                transition: .5s ease;
+                z-index: 1000;
+
+                .navlists {
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 100%;
+                    margin: auto;
+
+                    .navItem {
+                        padding: 1rem 0;
+
+                        .navLink {
+                            color: var(--PrimaryColor);
+                            font-size: .9rem;
+                            font-weight: 600;
+
+                            &:hover {
+                                background: var(--PrimaryColor);
+                                color: var(--textColor);
+                            }
+                        }
+                    }
+
+                    .headerbtns {
+                        flex-direction: column;
+
+                        .btn {
+                            margin-top: 1rem;
+
+                            a {
+                                font-weight: 600;
+
+                                &:hover {
+                                    color: var(--whiteColor);
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+
+                        .loginBtn {
+                            background: none;
+                            border: 1px solid var(--primarySingleColor);
+
+                            a {
+                                color: var(--primarySingleColor);
+                            }
+
+                            &:hover {
+                                background: var(--PrimaryColor);
+
+                                a {
+                                    color: var(--whiteColor);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .closeNavbar {
+                    position: absolute;
+                    top: 1rem;
+                    right: 1.5rem;
+                    color: var(--primarySingleColor);
+
+                    &:hover .icon {
+                        color: var(--HoverColor);
+                    }
+                }
+            }
+
+            .activeNavBar {
+                left: 0;
+            }
+        }
+
+        .toggleNavbar {
+            .icon {
+                font-size: 25px;
+                color: var(--primarySingleColor);
+            }
+        }
+    }
+}
