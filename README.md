@@ -26,23 +26,30 @@ The system structure of our Space Voyage initiative employs a MERN stack, levera
 
 As stated in the project description, we have tried to provide solutions to multiple problems in a single place. And this has been done through a web app.
 
-*Features:*
+**Website Features:**
 
-- Mobile first design, as 92.3% of internet users access the internet via a mobile phone.
+- *Direct Booking and Exclusive Hotel Deals:*
+   Users can conveniently book their destinations directly through the website. Additionally, they get insights into popular destinations chosen by fellow tourists, and exclusive hotel deals are available exclusively on the website.
 
-- An intuitive UI that uses eye-catching contrasting colors schemes, suitable for those who have issues recepting color, too.
+- *Intuitive UI with Eye-Catching Colors:*
+   The website boasts an intuitive user interface, employing eye-catching color schemes suitable for all users, including those with color perception issues.
 
-- Robust security OTP feature provides extended protection for the user’s account.
+- *Robust Security with OTP Feature:*
+   To ensure the security of user accounts, the website incorporates a robust OTP feature, providing extended protection.
 
-- Three main pages which are directly accessible that meet the user’s primary need: traveling.
+**Mobile App Features:**
 
-- The app opens up with the most visited planets with a short bio, these are not the only locations, the user can discover more if desired.
+- *Neatly Organized for Smooth User Experience:*
+   Recognizing the predominant use of mobile phones, the mobile app is meticulously organized to offer users a seamless and user-friendly experience.
 
-- The second page provided the user with information about the desired planet. By leveraging this information, the user can properly plan his or her tour.
+- *Focused Travel Pages:*
+   The app features three main pages directly addressing the user's primary need: traveling. These pages provide quick access to information, planning, and booking.
 
-- The third page provides the cost of the traveling and finalizes the booking of one or more tickets to one or more destinations.
+- *Interactive Planet Exploration:*
+   Users are greeted with the most visited planets on opening the app, each accompanied by a short bio. While these are highlights, users can explore more destinations. The second page offers detailed information for tour planning, and the third page finalizes ticket bookings for one or more destinations.
 
-- Another page provides access to multiple services and features. There’s scope for the user to get engaging experience via using VR or participating in forums. The user can play games, stay updated with current news and space events, watch live streams of these events, buy space suits, space food, equipment etc.There’s guides for the users to have a much better experience touring the user’s desired planet too.
+- *Diverse Services and Features:*
+   Beyond booking, the app provides access to various services and features. Users can engage with VR, participate in forums, play games, stay updated with news and space events through live streams, and even purchase space-related items like suits and food. Guides are available for an enhanced touring experience on the desired planet.
 
 ## TECH STACK
 
