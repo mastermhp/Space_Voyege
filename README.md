@@ -1,70 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## HIGH-LEVEL PROJECT SUMMARY
 
-## Available Scripts
+In the distant future, space tourism will likely be routine for Earth dwellers, but space travelers will need help choosing a destination and determining an itinerary. Imagine you are a travel agent at a future space tourism office. Your challenge is to create a tool that will not only develop customized itineraries for future travelers who want to visit the main bodies in our solar system—perhaps Mars, Jupiter, or Saturn—but also educate present-day users about the many different objects in our solar system.
 
-In the project directory, you can run:
+## LINK TO FINAL PROJECT
 
-### `npm start`
+Github Link: [https://github.com/mastermhp/Space_Voyege](https://github.com/mastermhp/Space_Voyege)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## LINK TO PROJECT "DEMO"
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+  
+## DETAILED PROJECT DESCRIPTION
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+As per the challenge, we’re in a future where inter-planetary traveling has become as common as it is to use airplanes in the current times. So, to tackle the the problem of the future citizens who wants to travel not to other countries, but to other planets of our solar system, we have built an web application for a traveling agency which not only solves the problem of making it hassle free to book, travel and learn about different planets and other objects, it also provides much more value too.
 
-### `npm run build`
+## HOW IT WORKS
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The system structure of our Space Voyage initiative employs a MERN stack, leveraging MongoDB, Express.js, React, and Node.js. User engagement occurs through front-end components and services created using HTML5, CSS3, React, and JavaScript. On the server-side, Node.js and Express manage routing and controllers while interfacing with NASA's Space API for real-time data. The Mongoose model communicates seamlessly with MongoDB for efficient data storage. This tech stack guarantees a smooth and responsive user interface, adaptable to both the website and the mobile app. React ensures uniformity, and the collaboration of back-end processes and API integration produces a lively platform for users to navigate the cosmos effortlessly and accurately.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## FEATURES & SOLUTIONS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+As stated in the project description, we have tried to provide solutions to multiple problems in a single place. And this has been done through a web app.
 
-### `npm run eject`
+*Features:*
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Mobile first design, as 92.3% of internet users access the internet via a mobile phone.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- An intuitive UI that uses eye-catching contrasting colors schemes, suitable for those who have issues recepting color, too.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Robust security OTP feature provides extended protection for the user’s account.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Three main pages which are directly accessible that meet the user’s primary need: traveling.
 
-## Learn More
+- The app opens up with the most visited planets with a short bio, these are not the only locations, the user can discover more if desired.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- The second page provided the user with information about the desired planet. By leveraging this information, the user can properly plan his or her tour.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- The third page provides the cost of the traveling and finalizes the booking of one or more tickets to one or more destinations.
 
-### Code Splitting
+- Another page provides access to multiple services and features. There’s scope for the user to get engaging experience via using VR or participating in forums. The user can play games, stay updated with current news and space events, watch live streams of these events, buy space suits, space food, equipment etc.There’s guides for the users to have a much better experience touring the user’s desired planet too.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## TECH STACK
 
-### Analyzing the Bundle Size
+To come up with the solution to our problem, we will be utilizing the most popular web stack; the MERN stack. It comprises MongoDB, Express, React and Node.js. This allows us to use publicly available open-source resources which ultimately provide a buttery smooth web application.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## HACKATHON JOURNEY
 
-### Making a Progressive Web App
+Our journey into the realm of hackathons unfolds with a team bound not just by academic pursuits but a shared vision for creating meaningful and sustainable solutions. Comprising five like-minded members pursuing the same degree at our university, we found each other in classrooms where our shared passion for making a positive impact blossomed.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+The spark for our participation in the "NASA International Space Apps Challenge" ignited through the guidance of a senior, and here we are, driven by a collective desire to build something transformative. As we embark on this hackathon journey, our goal is clear — not just to participate, but to craft a solution that instigates positive change and progress. Together, we pool our knowledge, skills, and shared commitment to create an innovative and impactful contribution to the future.
 
-### Advanced Configuration
+## RESOURCES
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+[NASA Planetary Photojournal](https://photojournal.jpl.nasa.gov/)
 
-### Deployment
+[“Titan Tours” video](https://youtu.be/0dvCF3dS4ZI)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+[Astronomy topics on the CSA website](https://www.asc-csa.gc.ca/eng/astronomy/)
 
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# GamingHubEcommerce_FE
-# Space_Voyege
+[James Webb Space Telescope on the CSA website](https://asc-csa.gc.ca/eng/satellites/jwst/default.asp)
