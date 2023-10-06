@@ -78,21 +78,22 @@ const Header = () => {
 
             <div className="headerbtns flex">
               <button className="btn loginBtn">
-                
                 {userInfo ? (
-                 <NavDropdown title={userInfo.name} id="username">
-                   <LinkContainer to="/profile">
-                     <NavDropdown.Item>Profile</NavDropdown.Item>
-                   </LinkContainer>
-                   <NavDropdown.Item onClick={logoutHandler}>
-                     Logout
-                   </NavDropdown.Item>
-                 </NavDropdown>
-               ) : (
-                 <LinkContainer to="/login">
-                     <i className="fas fa-user"></i> LogIn
-                 </LinkContainer>
-               )}
+                  <NavDropdown title={userInfo.name} id="username">
+                    <LinkContainer to="/profile">
+                      <NavDropdown.Item>Profile</NavDropdown.Item>
+                    </LinkContainer>
+                    <NavDropdown.Item onClick={logoutHandler}>
+                      Logout
+                    </NavDropdown.Item>
+                  </NavDropdown>
+                ) : (
+                  <LinkContainer to="/login">
+                    <Nav.Link>
+                      <i className="fas fa-user"></i> LogIn
+                    </Nav.Link>
+                  </LinkContainer>
+                )}
 
                 {/* <a href="#">Login</a> */}
               </button>

@@ -56,57 +56,66 @@ const ProfileScreen = ({ location, history }) => {
   return (
     <Row>
       <Col md={3}>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <h2>User Profile</h2>
-        {message && <Message variant='danger'>{message}</Message>}
+        {message && <Message variant="danger">{message}</Message>}
         {}
-        {success && <Message variant='success'>Profile Updated</Message>}
+        {success && <Message variant="success">Profile Updated</Message>}
         {loading ? (
           <Loader />
         ) : error ? (
-          <Message variant='danger'>{error}</Message>
+          <Message variant="danger">{error}</Message>
         ) : (
           <Form onSubmit={submitHandler}>
-            <Form.Group controlId='name'>
+            <br />
+            <br />
+            <br />
+            
+            <Form.Group controlId="name">
               <Form.Label>Name</Form.Label>
               <Form.Control
-                type='name'
-                placeholder='Enter name'
+                type="name"
+                placeholder="Enter name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               ></Form.Control>
             </Form.Group>
 
-            <Form.Group controlId='email'>
+            <Form.Group controlId="email">
               <Form.Label>Email Address</Form.Label>
               <Form.Control
-                type='email'
-                placeholder='Enter email'
+                type="email"
+                placeholder="Enter email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               ></Form.Control>
             </Form.Group>
 
-            <Form.Group controlId='password'>
+            <Form.Group controlId="password">
               <Form.Label>Password</Form.Label>
               <Form.Control
-                type='password'
-                placeholder='Enter password'
+                type="password"
+                placeholder="Enter password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               ></Form.Control>
             </Form.Group>
 
-            <Form.Group controlId='confirmPassword'>
+            <Form.Group controlId="confirmPassword">
               <Form.Label>Confirm Password</Form.Label>
               <Form.Control
-                type='password'
-                placeholder='Confirm password'
+                type="password"
+                placeholder="Confirm password"
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
               ></Form.Control>
             </Form.Group>
 
-            <Button type='submit' variant='primary'>
+            <Button type="submit" variant="primary">
               Update
             </Button>
           </Form>
@@ -117,9 +126,9 @@ const ProfileScreen = ({ location, history }) => {
         {loadingOrders ? (
           <Loader />
         ) : errorOrders ? (
-          <Message variant='danger'>{errorOrders}</Message>
+          <Message variant="danger">{errorOrders}</Message>
         ) : (
-          <Table striped bordered hover responsive className='table-sm'>
+          <Table striped bordered hover responsive className="table-sm">
             <thead>
               <tr>
                 <th>ID</th>
@@ -140,19 +149,19 @@ const ProfileScreen = ({ location, history }) => {
                     {order.isPaid ? (
                       order.paidAt.substring(0, 10)
                     ) : (
-                      <i className='fas fa-times' style={{ color: 'red' }}></i>
+                      <i className="fas fa-times" style={{ color: "red" }}></i>
                     )}
                   </td>
                   <td>
                     {order.isDelivered ? (
                       order.deliveredAt.substring(0, 10)
                     ) : (
-                      <i className='fas fa-times' style={{ color: 'red' }}></i>
+                      <i className="fas fa-times" style={{ color: "red" }}></i>
                     )}
                   </td>
                   <td>
                     <LinkContainer to={`/order/${order._id}`}>
-                      <Button className='btn-sm' variant='light'>
+                      <Button className="btn-sm" variant="light">
                         Details
                       </Button>
                     </LinkContainer>
@@ -164,7 +173,7 @@ const ProfileScreen = ({ location, history }) => {
         )}
       </Col>
     </Row>
-  )
+  );
 }
 
 export default ProfileScreen

@@ -35,7 +35,7 @@
                 .destImage {
                     position: relative;
                     height: 320px;
-                    width: 100%;
+                    width: 30%;
                     border-radius: 1rem;
                     overflow: hidden;
 
@@ -71,6 +71,7 @@
 
                         .status {
                             padding: 5px 10px;
+                            // right: 150px;
                             color: var(--primarySingleColor);
                             background: var(--greyBg);
                             font-size: 10px;
@@ -80,7 +81,7 @@
                     }
 
                     .amenities {
-                        width: 100%;
+                        width: 30%;
                         flex-wrap: wrap;
                         justify-content: flex-start;
                         padding: 1rem 0;
@@ -96,7 +97,7 @@
 
                     .btn {
                         margin-top: 1rem;
-                        width: 100%;
+                        width: 30%;
                         text-align: center;
                         justify-content: center;
                         padding: 0.6rem;
