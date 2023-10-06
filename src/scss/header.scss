@@ -23,8 +23,11 @@
         z-index: 1000;
 
         .logoDiv {
+            margin-right: auto;
+
             .logo {
                 text-decoration: none;
+
 
                 .logoName {
                     color: var(--primarySingleColor);
@@ -38,6 +41,83 @@
                         font-size: 25px;
                     }
                 }
+            }
+        }
+
+        .navbar {
+            padding: 1rem;
+            width: 100%;
+            transition: .5s ease;
+            z-index: 1000;
+
+            .navlists {
+                justify-content: center;
+                width: 100%;
+                margin: auto;
+
+                .navItem {
+                    margin-left: 50px;
+
+                    .navLink {
+                        color: var(--PrimaryColor);
+                        font-size: .9rem;
+                        font-weight: 600;
+
+                        &:hover {
+                            background: var(--PrimaryColor);
+                            color: var(--textColor);
+                        }
+                    }
+                }
+
+                .headerbtns {
+                    // flex-direction: column;
+                    top: 10px;
+                    right: 10px;
+                    padding: 5px 10px;
+
+
+
+                    .btn {
+                        margin-left: 5px;
+
+                        a {
+                            font-weight: 600;
+
+                            &:hover {
+                                color: var(--whiteColor);
+                                text-decoration: none;
+                            }
+                        }
+                    }
+
+                    .loginBtn {
+                        background: none;
+                        border: 1px solid var(--primarySingleColor);
+
+                        a {
+                            color: var(--primarySingleColor);
+                        }
+
+                        &:hover {
+                            background: var(--PrimaryColor);
+
+                            a {
+                                color: var(--whiteColor);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .closeNavbar {
+                display: none;
+            }
+        }
+
+        .toggleNavbar {
+            .icon {
+                display: none;
             }
         }
 
@@ -111,6 +191,7 @@
                 }
 
                 .closeNavbar {
+                    display: block;
                     position: absolute;
                     top: 1rem;
                     right: 1.5rem;
@@ -128,7 +209,10 @@
         }
 
         .toggleNavbar {
+            display: block;
+
             .icon {
+                display: block;
                 font-size: 25px;
                 color: var(--primarySingleColor);
             }

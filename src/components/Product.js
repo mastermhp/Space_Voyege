@@ -12,27 +12,27 @@ import img1 from "../image/h4.jpg";
 import img2 from "../image/h5.jpeg";
 import img3 from "../image/h5.png";
 
-const Data = [
+const Offers = [
   {
     id: 1,
     imgSrc: img1,
     destTitle: "Starlex",
     location: "Jupiter",
-    grade: "discover Jupiter",
+    Price: "$100000",
   },
   {
     id: 2,
     imgSrc: img2,
     destTitle: "PlexUs",
     location: "Moon",
-    grade: "discover PlexUs",
+    Price: "$180000",
   },
   {
     id: 3,
     imgSrc: img3,
     destTitle: "EXostar",
     location: "Saturn",
-    grade: "discover EXostar",
+    price: "$150000",
   },
 ];
 
@@ -48,49 +48,53 @@ const Product = ({ product }) => {
         </div>
 
         <div className="mainContent grid">
-          <div className="singleOffer">
-            <div className="destImage">
-              <img src={img1} alt="" />
+          {Offers.map(({id, imgSrc,destTitle,location,price}) => {
+            return (
+              <div className="singleOffer">
+                <div className="destImage">
+                  <img src={imgSrc} alt="" />
 
-              <span className="discount">30% off</span>
-            </div>
+                  <span className="discount">30% off</span>
+                </div>
 
-            <div className="offerBody">
-              <div className="price flex">
-                <h4>$ 1M</h4>
-                <span className="status">For Rent</span>
+                <div className="offerBody">
+                  <div className="price flex">
+                    <h4>{price}</h4>
+                    <span className="status">For Rent</span>
+                  </div>
+
+                  <div className="amenities flex">
+                    <div className="singleAmenity flex">
+                      <MdKingBed className="icon" />
+                      <small>2 Beds</small>
+                    </div>
+                    <div className="singleAmenity flex">
+                      <MdBathtub className="icon" />
+                      <small>1 Bath</small>
+                    </div>
+                    <div className="singleAmenity flex">
+                      <FaWifi className="icon" />
+                      <small>Wi-Fi</small>
+                    </div>
+                    <div className="singleAmenity flex">
+                      <GiRocketThruster className="icon" />
+                      <small>Ship</small>
+                    </div>
+                  </div>
+
+                  <div className="location flex">
+                    <MdLocationOn className="icon" />
+                    <small>{location}</small>
+                  </div>
+
+                  <button className="btn flex">
+                    View Details
+                    <BsArrowRightShort className="icon" />
+                  </button>
+                </div>
               </div>
-
-              <div className="amenities flex">
-                <div className="singleAmenity flex">
-                  <MdKingBed className="icon" />
-                  <small>2 Beds</small>
-                </div>
-                <div className="singleAmenity flex">
-                  <MdBathtub className="icon" />
-                  <small>1 Bath</small>
-                </div>
-                <div className="singleAmenity flex">
-                  <FaWifi className="icon" />
-                  <small>Wi-Fi</small>
-                </div>
-                <div className="singleAmenity flex">
-                  <GiRocketThruster className="icon" />
-                  <small>Ship</small>
-                </div>
-              </div>
-
-              <div className="location flex">
-                <MdLocationOn className="icon" />
-                <small>Moon, 363 104 km</small>
-              </div>
-
-              <button className="btn flex">
-                View Details
-                  <BsArrowRightShort className="icon"/>
-              </button>
-            </div>
-          </div>
+            );
+          })}
         </div>
       </div>
     </section>
