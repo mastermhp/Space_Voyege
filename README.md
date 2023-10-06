@@ -24,7 +24,7 @@ The system structure of our Space Voyage initiative employs a MERN stack, levera
 
 ## FEATURES & SOLUTIONS
 
-As stated in the project description, we have tried to provide solutions to multiple problems in a single place. And this has been done through a web app.
+As stated in the project description, we have tried to provide solutions to multiple problems in a single place. And this has been done through a website and an app.
 
 **Website Features:**
 
