@@ -64,8 +64,26 @@ The spark for our participation in the "NASA International Space Apps Challenge"
 
 [James Webb Space Telescope on the CSA website](https://asc-csa.gc.ca/eng/satellites/jwst/default.asp)
 
+### WEBSITE DEMO
+
 ![1  plan](https://github.com/mastermhp/Space_Voyege/assets/110383734/5ce8fa4b-2948-4fe2-9ae5-f860de7e96c1)
 ![2  popular_destination_0](https://github.com/mastermhp/Space_Voyege/assets/110383734/3c5219ce-5aa4-44d2-a435-9ec41da88187)
 ![3  popular_destination_1](https://github.com/mastermhp/Space_Voyege/assets/110383734/e4e8d11c-a495-4f04-b360-b126597695aa)
 ![4  special_offers](https://github.com/mastermhp/Space_Voyege/assets/110383734/ee7b9db7-81d4-42ac-b004-a25394deb76a)
 ![5  login](https://github.com/mastermhp/Space_Voyege/assets/110383734/f25cbaae-aefe-49bb-9417-055aa4a59c6f)
+
+### MOBILE APP DEMO
+
+![image](https://github.com/mastermhp/Space_Voyege/assets/110383734/3d27fcc6-7cea-4c57-a6ba-4fdaeefb6eb6)
+![image](https://github.com/mastermhp/Space_Voyege/assets/110383734/9ba3ceb5-e8b1-49fa-b46c-1cccd87d4532)
+![image](https://github.com/mastermhp/Space_Voyege/assets/110383734/dac8e627-97a7-4ac0-8e54-f05aa2d0ced2)
+![image](https://github.com/mastermhp/Space_Voyege/assets/110383734/efe8823a-7084-4d88-846f-f7331a57b697)
+![image](https://github.com/mastermhp/Space_Voyege/assets/110383734/72de098b-ce8c-4279-8938-09e7aca04bfc)
+![image](https://github.com/mastermhp/Space_Voyege/assets/110383734/0c699090-96c3-4826-a872-1e7e84607741)
+![image](https://github.com/mastermhp/Space_Voyege/assets/110383734/e5ba4ab7-3f78-4ab8-a0a7-6ddc61b730be)
+![image](https://github.com/mastermhp/Space_Voyege/assets/110383734/9ae15695-44ce-462a-b70d-a5e31bd2d616)
+![image](https://github.com/mastermhp/Space_Voyege/assets/110383734/3358980f-7980-4963-9062-9535174566fe)
+![image](https://github.com/mastermhp/Space_Voyege/assets/110383734/bdaf5e4c-00ee-4b32-aeee-b03dc3db2014)
+![image](https://github.com/mastermhp/Space_Voyege/assets/110383734/92387856-1678-478d-bbd0-9379790e7d28)
+![image](https://github.com/mastermhp/Space_Voyege/assets/110383734/95e3aa73-5462-4960-ba38-b910bf1e746f)
+![image](https://github.com/mastermhp/Space_Voyege/assets/110383734/d0595888-6b8e-43cf-9c79-b10c44fa8f91)
