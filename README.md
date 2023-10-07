@@ -10,7 +10,7 @@ Github Link: [https://github.com/mastermhp/Space_Voyege](https://github.com/mast
 
 ## LINK TO PROJECT "DEMO"
 
-YouTube Link: [https://youtu.be/CIHD60RMZQA]([https://youtu.be/CIHD60RMZQA)
+YouTube Link: ([https://youtu.be/CIHD60RMZQA)
   
 ## DETAILED PROJECT DESCRIPTION
 
